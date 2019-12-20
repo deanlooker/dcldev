@@ -10,6 +10,8 @@ datagroup: dean_sme_default_datagroup {
 
 persist_with: dean_sme_default_datagroup
 
+explore: smelookml_dt {}
+
 explore: calendar_table {}
 
 explore: connection_reg_r3 {}
