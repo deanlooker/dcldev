@@ -2,7 +2,7 @@ view: orders_date_filter {
   sql_table_name: demo_db.orders;;
 
   filter: date_filter {
-    label: "Date Range (Limited to 365 days prior to end date)"
+    label: "Date Filter"
     type: date
     default_value: "1 years"
   }
