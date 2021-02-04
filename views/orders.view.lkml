@@ -22,6 +22,12 @@ view: orders {
     sql: ${TABLE}.created_at ;;
   }
 
+  dimension: week_end {
+    type: date
+    sql: DATE_ADD(${created_time}, INTERVAL 6 DAY);
+      ;;
+      }
+
   dimension: status {
     type: string
     sql: ${TABLE}.status ;;
