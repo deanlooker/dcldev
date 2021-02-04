@@ -79,6 +79,8 @@ explore: pending_orders {
   }
 }
 
+explore: orders_date_filter {}
+
 explore: persons {}
 
 explore: products {}
